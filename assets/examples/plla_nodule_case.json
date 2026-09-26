@@ -1,0 +1,45 @@
+{
+  "_note": "SIMULATED teaching case — not a real patient. Use for demos and testing only.",
+  "case_id": "plla_nodule_demo",
+  "mode": "case_report",
+  "category": "complication",
+  "working_title": "Late-onset nodules after poly-L-lactic acid injection in the mid-face assessed with high-frequency ultrasound",
+  "key_message": "High-frequency ultrasound distinguished non-inflammatory PLLA nodules from product clumping and guided low-dose intralesional steroid with resolution by Day 180.",
+  "patient": {
+    "age": 38, "sex": "female", "fitzpatrick": "IV", "ethnicity": "East Asian",
+    "goal": "Restore mid-face volume loss after weight reduction",
+    "medical_history": "No systemic disease",
+    "medications": ["semaglutide 1.0 mg weekly for 10 months (stopped 2 months before treatment)"],
+    "aesthetic_history": [{"treatment": "HA filler", "area": "tear trough", "when": "18 months before"}],
+    "bdd_screen": "not performed"
+  },
+  "presenting_concern": "Mid-face hollowing after 12 kg weight loss",
+  "clinical_findings": "Bilateral submalar and zygomatic volume deficit; mid-face volume deficit scale grade 3 at baseline.",
+  "diagnosis": {"final": "Late-onset non-inflammatory PLLA nodules", "differential": ["inflammatory granuloma", "biofilm-related nodule", "residual HA from prior tear-trough filler"], "methods": ["high-frequency ultrasound 18 MHz"], "challenges": ""},
+  "interventions": [
+    {"day": 0, "type": "injectable", "summary": "PLLA session 1, bilateral mid-face", "product": "poly-L-lactic acid", "reconstitution": "8 mL sterile water + 1 mL lidocaine 2%, hydrated 48 h", "dose": "1 vial per side", "plane": "supraperiosteal", "needle": "25G cannula", "technique": "fanning, retrograde", "areas": "zygomatic, submalar"},
+    {"day": 42, "type": "injectable", "summary": "PLLA session 2, same protocol"},
+    {"day": 75, "type": "management", "summary": "Intralesional triamcinolone 10 mg/mL, 0.1 mL per nodule, 3 nodules"}
+  ],
+  "timeline": [
+    {"day": 0, "label": "PLLA session 1", "kind": "treatment"},
+    {"day": 42, "label": "PLLA session 2", "kind": "treatment"},
+    {"day": 70, "label": "Palpable nodules, left submalar", "kind": "event"},
+    {"day": 75, "label": "Ultrasound + intralesional steroid", "kind": "management"},
+    {"day": 105, "label": "Follow-up: nodules smaller", "kind": "followup"},
+    {"day": 180, "label": "Final follow-up: resolved", "kind": "followup"}
+  ],
+  "outcomes": [
+    {"measure": "Largest nodule diameter", "unit": "mm", "tool": "ultrasound 18 MHz", "assessor": "treating physician", "timepoints": {"D75": 6.2, "D105": 3.1, "D180": 0}},
+    {"measure": "Mid-face volume deficit grade", "unit": "", "tool": "validated 5-point scale", "assessor": "treating physician", "timepoints": {"D0": 3, "D180": 1}}
+  ],
+  "adverse_events": [{"event": "late-onset nodules (3)", "onset_day": 70, "severity": "mild", "management": "intralesional triamcinolone", "resolved": "Day 180"}],
+  "tolerability": "Mild bruising for 3 days after each session",
+  "patient_perspective": "",
+  "photos": [{"file": "img/d0_front.jpg", "timepoint": "D0", "view": "frontal", "system": "VISIA", "standardised": true}],
+  "split_face": null,
+  "consent": {"treatment": true, "publication": true, "photos_identifiable": "unknown"},
+  "off_label": false,
+  "declarations": {"conflicts": "", "funding": "", "ai_use": "drafting assisted by an AI tool"},
+  "missing": ["lot number", "operator experience", "patient perspective", "GAIS by independent rater", "consent scope for facial photos"]
+}
