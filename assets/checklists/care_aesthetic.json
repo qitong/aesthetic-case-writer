@@ -1,82 +1,298 @@
 {
   "name": "CARE (2013) with aesthetic-medicine extensions",
   "applies_to": "case_report",
-  "source_note": "Item wording paraphrased from the CARE checklist (Gagnier et al., 2013; care-statement.org). Before submission, download the official checklist the target journal requires and transfer locations onto it.",
+  "source_note": "Item wording follows the current CARE checklist (English, 2013; care-statement.org), lightly paraphrased. Before submission, download the official checklist the target journal requires and transfer locations onto it.",
   "items": [
-    {"id": "1", "section": "Title", "item": "The words \"case report\" plus the phenomenon of greatest interest (complication, indication, population, technique).",
-     "aesthetic": ["Name the product class or device type, not only the brand (e.g., 'poly-L-lactic acid' rather than a trade name alone)."],
-     "ask": "What is the single most important message of this case — the complication, the new indication, the special population, or the technique? I will build the title around it.", "critical": false},
-    {"id": "2", "section": "Keywords", "item": "2–5 keywords identifying the diagnoses or interventions in this case, including 'case report'.",
-     "aesthetic": ["Include the material/device class and the anatomical region (e.g., 'hyaluronic acid filler', 'tear trough')."],
-     "ask": "Any keywords you want included (e.g., for indexing in a specific journal)? Otherwise I will propose 5.", "critical": false},
-    {"id": "3a", "section": "Abstract", "item": "Introduction: what is unique about this case and what it adds to the literature.",
-     "aesthetic": [], "ask": "In one sentence, what do colleagues learn from this case that they did not know before?", "critical": true},
-    {"id": "3b", "section": "Abstract", "item": "Main concerns of the patient and important clinical findings.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "3c", "section": "Abstract", "item": "Primary diagnoses, interventions and outcomes.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "3d", "section": "Abstract", "item": "Conclusion: the main take-away lesson(s).", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "4", "section": "Introduction", "item": "Brief background summarising why this case is unique, with relevant medical literature.",
-     "aesthetic": ["State how often this event/indication has been reported before (result of the novelty search)."],
-     "ask": "Did you run (or should I run) a PubMed search for prior reports? How many similar cases were found?", "critical": true},
-    {"id": "5a", "section": "Patient information", "item": "De-identified demographics (age, sex, ethnicity, occupation if relevant).",
-     "aesthetic": ["Fitzpatrick skin type.", "Ethnicity/ancestry when relevant to pigmentation or anatomy."],
-     "ask": "What is the patient's Fitzpatrick skin type?", "critical": true},
-    {"id": "5b", "section": "Patient information", "item": "Main concerns and symptoms of the patient.",
-     "aesthetic": ["The aesthetic goal in the patient's own words, and expectations."], "ask": "What was the patient's main aesthetic concern and goal, ideally in their own words?", "critical": false},
-    {"id": "5c", "section": "Patient information", "item": "Medical, family and psychosocial history, including relevant past interventions and outcomes.",
-     "aesthetic": ["Full prior aesthetic-treatment history: products/devices, areas, dates (at least the last 12–24 months).",
-                   "Unknown or non-registered fillers disclosed as such.",
-                   "Relevant medications: anticoagulants, isotretinoin, GLP-1 receptor agonists, immunomodulators.",
-                   "Autoimmune disease, keloid tendency, herpes history, recent vaccination or infection when relevant to the event.",
-                   "Body dysmorphic disorder screening result (if performed)."],
-     "ask": "Prior aesthetic treatments (what, where, when)? Relevant medications (anticoagulants, isotretinoin, GLP-1 agonists, immunomodulators)? Autoimmune disease, recent infection/vaccination? Was BDD screening done?", "critical": true},
-    {"id": "6", "section": "Clinical findings", "item": "Relevant physical examination and other clinical findings.",
-     "aesthetic": ["Validated severity scale at baseline (site-specific scale, GAIS baseline not applicable).",
-                   "Standardised photographs: views, lighting, distance, camera/imaging system (e.g., VISIA, 3D).",
-                   "For complications: size, consistency, tenderness, colour, fluctuance, distance from injection points."],
-     "ask": "Which baseline scale scores and imaging (VISIA/3D/ultrasound) exist? Were photos standardised (same lighting, distance, views)?", "critical": true},
-    {"id": "7", "section": "Timeline", "item": "Historical and current information organised as a timeline (table or figure).",
-     "aesthetic": ["Day 0 = index treatment; include every treatment session, onset of any event, each intervention for it, and each follow-up visit."],
-     "ask": "Please confirm the dates (or day offsets) of: index treatment, symptom onset, each management step, and each follow-up visit.", "critical": true},
-    {"id": "8a", "section": "Diagnostic assessment", "item": "Diagnostic methods (examination, lab testing, imaging, questionnaires).",
-     "aesthetic": ["High-frequency ultrasound / Doppler findings, culture, histopathology, biofilm work-up where relevant."],
-     "ask": "Were ultrasound, Doppler, culture, or biopsy performed? What did they show?", "critical": false},
-    {"id": "8b", "section": "Diagnostic assessment", "item": "Diagnostic challenges (access, financial, cultural).", "aesthetic": [], "ask": "Were there any diagnostic challenges (e.g., imaging unavailable, patient declined biopsy)?", "critical": false},
-    {"id": "8c", "section": "Diagnostic assessment", "item": "Diagnostic reasoning including differential diagnoses.",
-     "aesthetic": ["E.g., inflammatory vs non-inflammatory nodule; product vs biofilm vs foreign-body granuloma; Tyndall effect vs oedema vs bruising."],
-     "ask": "What differential diagnoses did you consider and why were they excluded?", "critical": true},
-    {"id": "8d", "section": "Diagnostic assessment", "item": "Prognostic characteristics where applicable.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "9a", "section": "Therapeutic intervention", "item": "Types of intervention (pharmacologic, surgical, preventive, self-care).", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "9b", "section": "Therapeutic intervention", "item": "Administration of intervention (dosage, strength, duration).",
-     "aesthetic": ["Injectables: product (generic + trade name, manufacturer, country), lot number if relevant, volume/units per site and total, dilution/reconstitution (PLLA: diluent volume and hydration time; toxin: U per mL), injection plane, needle vs cannula and gauge, technique (bolus/linear/fanning/microdroplet), entry points.",
-                   "Energy-based devices: device model and manufacturer, wavelength, fluence, pulse width, spot size, passes, overlap, cooling, endpoints.",
-                   "Complication management: hyaluronidase units and dilution, steroids/antibiotics (drug, dose, duration), laser/drainage details.",
-                   "Operator qualification and experience."],
-     "ask": "Please give the full treatment parameters: product/device, dose or energy settings, dilution, plane, needle/cannula gauge, technique, number of sessions and intervals, and the operator's experience.", "critical": true},
-    {"id": "9c", "section": "Therapeutic intervention", "item": "Changes in intervention, with rationale.", "aesthetic": [], "ask": "Was the plan changed at any point (dose, product, extra session)? Why?", "critical": false},
-    {"id": "10a", "section": "Follow-up and outcomes", "item": "Clinician- and patient-assessed outcomes.",
-     "aesthetic": ["Clinician: GAIS / site-specific scale, ideally by a blinded independent evaluator.",
-                   "Patient: satisfaction or FACE-Q module.",
-                   "Objective: VISIA / 3D volume / ultrasound thickness, same settings as baseline."],
-     "ask": "Who rated the outcome (treating physician, independent blinded rater, patient)? Which scales/instruments at which time points?", "critical": true},
-    {"id": "10b", "section": "Follow-up and outcomes", "item": "Important follow-up diagnostic and other test results.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "10c", "section": "Follow-up and outcomes", "item": "Intervention adherence and tolerability (and how assessed).",
-     "aesthetic": ["Downtime, pain, swelling, bruising duration."], "ask": "How long was downtime? Pain/bruising/swelling and how long did they last?", "critical": false},
-    {"id": "10d", "section": "Follow-up and outcomes", "item": "Adverse and unanticipated events.",
-     "aesthetic": ["Report even minor events; state 'none' explicitly if none occurred.", "Length of follow-up at which the absence of events is claimed."],
-     "ask": "Any adverse or unexpected events at all (including minor)? What was the total follow-up duration?", "critical": true},
-    {"id": "11a", "section": "Discussion", "item": "Strengths and limitations in the management of this case.",
-     "aesthetic": ["Single case, unblinded assessment, confounders (weight change, concurrent treatments, season/sun exposure for pigmentation)."],
-     "ask": null, "critical": true},
-    {"id": "11b", "section": "Discussion", "item": "Discussion of the relevant medical literature.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "11c", "section": "Discussion", "item": "Rationale for conclusions (including assessment of possible causes).",
-     "aesthetic": ["For complications: causality assessment (temporal relationship, alternative explanations)."], "ask": null, "critical": false},
-    {"id": "11d", "section": "Discussion", "item": "Primary take-away lessons of this case report.", "aesthetic": [], "ask": null, "critical": false},
-    {"id": "12", "section": "Patient perspective", "item": "The patient shares their perspective or experience whenever appropriate.",
-     "aesthetic": ["Satisfaction, psychological impact, willingness to repeat treatment."],
-     "ask": "Can you provide a short statement from the patient about their experience (or should this section be omitted)?", "critical": false},
-    {"id": "13", "section": "Informed consent", "item": "Did the patient give informed consent? Provide if requested.",
-     "aesthetic": ["Separate written consent for publication of identifiable facial photographs; eye bars do NOT de-identify a face.",
-                   "Off-label use: consent for the off-label treatment itself and ethics committee approval if required."],
-     "ask": "Is there written consent for publication, specifically covering facial photographs? Was any use off-label, and if so is there ethics approval?", "critical": true}
+    {
+      "id": "1",
+      "section": "Title",
+      "item": "The diagnosis or intervention of primary focus followed by the words \"case report\".",
+      "aesthetic": [
+        "Name the product class or device type, not only the brand (e.g., 'poly-L-lactic acid' rather than a trade name alone)."
+      ],
+      "ask": "What is the single most important message of this case — the complication, the new indication, the special population, or the technique? I will build the title around it.",
+      "critical": false
+    },
+    {
+      "id": "2",
+      "section": "Keywords",
+      "item": "2–5 keywords identifying the diagnoses or interventions in this case, including 'case report'.",
+      "aesthetic": [
+        "Include the material/device class and the anatomical region (e.g., 'hyaluronic acid filler', 'tear trough')."
+      ],
+      "ask": "Any keywords you want included (e.g., for indexing in a specific journal)? Otherwise I will propose 5.",
+      "critical": false
+    },
+    {
+      "id": "3a",
+      "section": "Abstract",
+      "item": "Introduction: what is unique about this case and what it adds to the literature.",
+      "aesthetic": [],
+      "ask": "In one sentence, what do colleagues learn from this case that they did not know before?",
+      "critical": true
+    },
+    {
+      "id": "3b",
+      "section": "Abstract",
+      "item": "Main concerns of the patient and important clinical findings.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "3c",
+      "section": "Abstract",
+      "item": "Primary diagnoses, interventions and outcomes.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "3d",
+      "section": "Abstract",
+      "item": "Conclusion: the main take-away lesson(s).",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "4",
+      "section": "Introduction",
+      "item": "Brief background summarising why this case is unique, with relevant medical literature.",
+      "aesthetic": [
+        "State how often this event/indication has been reported before (result of the novelty search)."
+      ],
+      "ask": "Did you run (or should I run) a PubMed search for prior reports? How many similar cases were found?",
+      "critical": true
+    },
+    {
+      "id": "5a",
+      "section": "Patient information",
+      "item": "De-identified demographics (age, sex, ethnicity, occupation if relevant).",
+      "aesthetic": [
+        "Fitzpatrick skin type.",
+        "Ethnicity/ancestry when relevant to pigmentation or anatomy."
+      ],
+      "ask": "What is the patient's Fitzpatrick skin type?",
+      "critical": true
+    },
+    {
+      "id": "5b",
+      "section": "Patient information",
+      "item": "Main concerns and symptoms of the patient.",
+      "aesthetic": [
+        "The aesthetic goal in the patient's own words, and expectations."
+      ],
+      "ask": "What was the patient's main aesthetic concern and goal, ideally in their own words?",
+      "critical": false
+    },
+    {
+      "id": "5c",
+      "section": "Patient information",
+      "item": "Medical, family and psycho-social history, including relevant genetic information.",
+      "aesthetic": [
+        "Relevant medications: anticoagulants, isotretinoin, GLP-1 receptor agonists, immunomodulators.",
+        "Autoimmune disease, keloid tendency, herpes history, recent vaccination or infection when relevant to the event.",
+        "Body dysmorphic disorder screening result (if performed)."
+      ],
+      "ask": "Relevant medications (anticoagulants, isotretinoin, GLP-1 agonists, immunomodulators)? Autoimmune disease, keloid tendency, recent infection/vaccination? Was BDD screening done?",
+      "critical": true
+    },
+    {
+      "id": "5d",
+      "section": "Patient information",
+      "item": "Relevant past interventions with outcomes.",
+      "aesthetic": [
+        "Full prior aesthetic-treatment history: products/devices, areas, dates (at least the last 12–24 months), and how each turned out.",
+        "Unknown or non-registered fillers disclosed as such."
+      ],
+      "ask": "Prior aesthetic treatments (what, where, when) and their outcomes, including any earlier complications?",
+      "critical": true
+    },
+    {
+      "id": "6",
+      "section": "Clinical findings",
+      "item": "Relevant physical examination and other clinical findings.",
+      "aesthetic": [
+        "Validated severity scale at baseline (site-specific scale, GAIS baseline not applicable).",
+        "Standardised photographs: views, lighting, distance, camera/imaging system (e.g., VISIA, 3D).",
+        "For complications: size, consistency, tenderness, colour, fluctuance, distance from injection points."
+      ],
+      "ask": "Which baseline scale scores and imaging (VISIA/3D/ultrasound) exist? Were photos standardised (same lighting, distance, views)?",
+      "critical": true
+    },
+    {
+      "id": "7",
+      "section": "Timeline",
+      "item": "Historical and current information organised as a timeline (table or figure).",
+      "aesthetic": [
+        "Day 0 = index treatment; include every treatment session, onset of any event, each intervention for it, and each follow-up visit."
+      ],
+      "ask": "Please confirm the dates (or day offsets) of: index treatment, symptom onset, each management step, and each follow-up visit.",
+      "critical": true
+    },
+    {
+      "id": "8a",
+      "section": "Diagnostic assessment",
+      "item": "Diagnostic methods (examination, lab testing, imaging, questionnaires).",
+      "aesthetic": [
+        "High-frequency ultrasound / Doppler findings, culture, histopathology, biofilm work-up where relevant."
+      ],
+      "ask": "Were ultrasound, Doppler, culture, or biopsy performed? What did they show?",
+      "critical": false
+    },
+    {
+      "id": "8b",
+      "section": "Diagnostic assessment",
+      "item": "Diagnostic challenges (access, financial, cultural).",
+      "aesthetic": [],
+      "ask": "Were there any diagnostic challenges (e.g., imaging unavailable, patient declined biopsy)?",
+      "critical": false
+    },
+    {
+      "id": "8c",
+      "section": "Diagnostic assessment",
+      "item": "Diagnostic reasoning including differential diagnoses.",
+      "aesthetic": [
+        "E.g., inflammatory vs non-inflammatory nodule; product vs biofilm vs foreign-body granuloma; Tyndall effect vs oedema vs bruising."
+      ],
+      "ask": "What differential diagnoses did you consider and why were they excluded?",
+      "critical": true
+    },
+    {
+      "id": "8d",
+      "section": "Diagnostic assessment",
+      "item": "Prognostic characteristics where applicable.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "9a",
+      "section": "Therapeutic intervention",
+      "item": "Types of intervention (pharmacologic, surgical, preventive, self-care).",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "9b",
+      "section": "Therapeutic intervention",
+      "item": "Administration of intervention (dosage, strength, duration).",
+      "aesthetic": [
+        "Injectables: product (generic + trade name, manufacturer, country), lot number if relevant, volume/units per site and total, dilution/reconstitution (PLLA: diluent volume and hydration time; toxin: U per mL), injection plane, needle vs cannula and gauge, technique (bolus/linear/fanning/microdroplet), entry points.",
+        "Energy-based devices: device model and manufacturer, wavelength, fluence, pulse width, spot size, passes, overlap, cooling, endpoints.",
+        "Complication management: hyaluronidase units and dilution, steroids/antibiotics (drug, dose, duration), laser/drainage details.",
+        "Operator qualification and experience."
+      ],
+      "ask": "Please give the full treatment parameters: product/device, dose or energy settings, dilution, plane, needle/cannula gauge, technique, number of sessions and intervals, and the operator's experience.",
+      "critical": true
+    },
+    {
+      "id": "9c",
+      "section": "Therapeutic intervention",
+      "item": "Changes in intervention, with rationale.",
+      "aesthetic": [],
+      "ask": "Was the plan changed at any point (dose, product, extra session)? Why?",
+      "critical": false
+    },
+    {
+      "id": "10a",
+      "section": "Follow-up and outcomes",
+      "item": "Clinician- and patient-assessed outcomes.",
+      "aesthetic": [
+        "Clinician: GAIS / site-specific scale, ideally by a blinded independent evaluator.",
+        "Patient: satisfaction or FACE-Q module.",
+        "Objective: VISIA / 3D volume / ultrasound thickness, same settings as baseline."
+      ],
+      "ask": "Who rated the outcome (treating physician, independent blinded rater, patient)? Which scales/instruments at which time points?",
+      "critical": true
+    },
+    {
+      "id": "10b",
+      "section": "Follow-up and outcomes",
+      "item": "Important follow-up diagnostic and other test results.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "10c",
+      "section": "Follow-up and outcomes",
+      "item": "Intervention adherence and tolerability (and how assessed).",
+      "aesthetic": [
+        "Downtime, pain, swelling, bruising duration."
+      ],
+      "ask": "How long was downtime? Pain/bruising/swelling and how long did they last?",
+      "critical": false
+    },
+    {
+      "id": "10d",
+      "section": "Follow-up and outcomes",
+      "item": "Adverse and unanticipated events.",
+      "aesthetic": [
+        "Report even minor events; state 'none' explicitly if none occurred.",
+        "Length of follow-up at which the absence of events is claimed."
+      ],
+      "ask": "Any adverse or unexpected events at all (including minor)? What was the total follow-up duration?",
+      "critical": true
+    },
+    {
+      "id": "11a",
+      "section": "Discussion",
+      "item": "Strengths and limitations in the management of this case.",
+      "aesthetic": [
+        "Single case, unblinded assessment, confounders (weight change, concurrent treatments, season/sun exposure for pigmentation)."
+      ],
+      "ask": null,
+      "critical": true
+    },
+    {
+      "id": "11b",
+      "section": "Discussion",
+      "item": "Discussion of the relevant medical literature.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "11c",
+      "section": "Discussion",
+      "item": "Rationale for conclusions (including assessment of possible causes).",
+      "aesthetic": [
+        "For complications: causality assessment (temporal relationship, alternative explanations)."
+      ],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "11d",
+      "section": "Discussion",
+      "item": "The primary take-away lessons of this case report, in a one-paragraph conclusion without references.",
+      "aesthetic": [],
+      "ask": null,
+      "critical": false
+    },
+    {
+      "id": "12",
+      "section": "Patient perspective",
+      "item": "The patient shares their perspective on the treatment(s) received, in one to two paragraphs.",
+      "aesthetic": [
+        "Satisfaction, psychological impact, willingness to repeat treatment."
+      ],
+      "ask": "Can you provide a short statement from the patient about their experience (or should this section be omitted)?",
+      "critical": false
+    },
+    {
+      "id": "13",
+      "section": "Informed consent",
+      "item": "Did the patient give informed consent? Provide if requested.",
+      "aesthetic": [
+        "Separate written consent for publication of identifiable facial photographs; eye bars do NOT de-identify a face.",
+        "Off-label use: consent for the off-label treatment itself and ethics committee approval if required."
+      ],
+      "ask": "Is there written consent for publication, specifically covering facial photographs? Was any use off-label, and if so is there ethics approval?",
+      "critical": true
+    }
   ]
 }
